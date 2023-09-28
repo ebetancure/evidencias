@@ -3,16 +3,16 @@
 
 ## Sesión 1 
 
-#####¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
--Principiante
+##### ¿Cuál es tu nivel de conocimiento de Python? (principiante, intermedio, avanzado) Explica brevemente.
+- Principiante
 
-#####¿Has usado Git/GitHub antes? ¿Con qué frecuencia? (nunca, una o dos veces, varias veces)
--Varias veces
+##### ¿Has usado Git/GitHub antes? ¿Con qué frecuencia? (nunca, una o dos veces, varias veces)
+- Varias veces
 
-#####¿Has escrito código en Python? ¿De qué tipo? (algoritmos simples, funciones, clases, librerías, proyectos completos)
--Algoritmos simples
+##### ¿Has escrito código en Python? ¿De qué tipo? (algoritmos simples, funciones, clases, librerías, proyectos completos)
+- Algoritmos simples
 
-#####Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
+##### Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
 
 'import math
 
@@ -25,7 +25,7 @@ radio = float(input("Ingrese el radio del círculo "))
 area = area_circulo(radio)
 print("El área del círculo con radio:", radio, " es:", area)'
 
-#####Escribe los comandos de Git que conoces y una breve explicación de cada uno.
+##### Escribe los comandos de Git que conoces y una breve explicación de cada uno.
 git init - Inicializa un repositorio local en la carpeta actual
 git add . - Agrega todos los archivos al index para su posterior commit
 git commit -m - "commit" -se agrega el commit
@@ -33,11 +33,11 @@ git clone enlace.repositorio - clona repositorio para trabajarlo local
 git push origin master - subir cambios a github
 
 
-##Actividad: Consulta y creación de infografía para cada tema: Python, Git y GitHub
+## Actividad: Consulta y creación de infografía para cada tema: Python, Git y GitHub
 
 ![Python](./img/python.jpg)
 ![Git](./img/git.jpg)
-![Github](./img/github.png)
+![Github](./img/github.jpg)
 
 
 
