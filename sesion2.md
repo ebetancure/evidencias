@@ -6,7 +6,8 @@
 #### Ciclos While
 
 #### Solicita al usuario que ingrese una lista de números y encuentra el número mayor y el menor.
-`lista = input("Ingresa una lista de números separados por comas: ")
+```python:
+lista = input("Ingresa una lista de números separados por comas: ")
 lista = lista.split(",")
 i = 0
 num = float('inf')
@@ -20,11 +21,13 @@ while i < len(lista):
     i += 1
 
 print ("el numero menor es ",num)
-print ("el numero mayor es ",num2)`
+print ("el numero mayor es ",num2)
+```
 
 #### Solicita al usuario un número e imprime la suma de los números pares entre 1 y ese número.
 
-`i = 0
+```python:
+i = 0
 num2=0
 num = input("digite un numero ")
 while i < int(num)+1:
@@ -32,10 +35,12 @@ while i < int(num)+1:
         num2 += i 
     i+=1
 
-print ("la suma de los numeros pares entre 1 y ", num, " es ",num2)`
+print ("la suma de los numeros pares entre 1 y ", num, " es ",num2)
+```
 
 #### Solicita al usuario una cadena e imprime cuántas vocales contiene.
-`cadena = input("Ingresa una cadena: ")
+```python:
+cadena = input("Ingresa una cadena: ")
 vocales = 'aeiouAEIOU'
 i = 0
 contador = 0
@@ -43,19 +48,24 @@ while i < len(cadena):
     if cadena[i] in vocales:
         contador += 1
     i += 1
-print("La cadena tiene", contador, "vocales.")`
+print("La cadena tiene", contador, "vocales.")
+```
 
 #### Solicita al usuario un número y muestra su tabla de potencias desde 1 hasta 10.
-`num = input ("ingrese un numero ")
+
+```python:
+num = input ("ingrese un numero ")
 i = 1
 
 while i <= 10:
     expo=int ( num )**i
     print(num,"^",i,"=",expo)
-    i+=1`
+    i+=1
+```
 
 #### Solicita al usuario una lista de números y calcula la media aritmética.
-`lista = input("Ingresa una lista de números separados por comas: ")
+```python:
+lista = input("Ingresa una lista de números separados por comas: ")
 lista = lista.split(",")
 i=0
 suma = 0
@@ -64,31 +74,37 @@ while i < len(lista):
     i+=1
 
 media = suma / len(lista)
-print ("la media aritmetica de la lista es ", media)`
+print ("la media aritmetica de la lista es ", media)
+```
 
 #### Ciclos for
 
 #### Solicita al usuario una lista de números y calcula la suma de sus elementos.
-`lista = input("Ingresa una lista de números separados por comas: ")
+```python:
+lista = input("Ingresa una lista de números separados por comas: ")
 lista = lista.split(",")
 suma = 0
 for i in lista:
     suma += int(i)
     
-print ("la media aritmetica de la lista es ", suma)`
+print ("la media aritmetica de la lista es ", suma)
+```
 
 #### Solicita al usuario una lista de números e imprime cuántos de ellos son pares.
-`lista = input("Ingresa una lista de números separados por comas: ")
+```python:
+lista = input("Ingresa una lista de números separados por comas: ")
 lista = lista.split(",")
 par = 0
 for i in lista:
     if int(i) % 2 == 0:
         par += 1
 
-print(par,"son pares")`
+print(par,"son pares")
+```
 
 #### Solicita al usuario un número y muestra su tabla de multiplicar usando range().
-`num=input("ingrese un numero ")
+```python:
+num=input("ingrese un numero ")
 
 for i in range(1, 11):
     print(num, "x", i, "=", int(num)*i)`
@@ -98,17 +114,20 @@ for i in range(1, 11):
 
 for i in range (2,num + 1):
     if i % 2 == 0:
-        print(i)`
+        print(i)
+```
 
 #### Solicita al usuario un número y muestra la secuencia de números pares desde 2 hasta ese número.
-`num = int(input("ingresa un número: "))
+```python:
+num = int(input("ingresa un número: "))
 
 secue = []
 for i in range(2, num + 1):
     if i % 2 == 0:
         secue.append(i)
 
-print("Secuencia de números pares:", secue)`
+print("Secuencia de números pares:", secue)
+```
 
 #### Captura de comandos git
 ![captura](./img/sesion2.jpg)

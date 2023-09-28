@@ -14,7 +14,8 @@
 
 ##### Escribe un breve ejemplo de código Python que involucre al menos dos de los siguientes conceptos: funciones, clases, librerías.
 
-'import math
+```python:
+import math
 
 def area_circulo(radio):
     area = math.pi * radio**2
@@ -23,7 +24,8 @@ def area_circulo(radio):
 radio = float(input("Ingrese el radio del círculo "))
 
 area = area_circulo(radio)
-print("El área del círculo con radio:", radio, " es:", area)'
+print("El área del círculo con radio:", radio, " es:", area)
+```
 
 ##### Escribe los comandos de Git que conoces y una breve explicación de cada uno.
 git init - Inicializa un repositorio local en la carpeta actual
