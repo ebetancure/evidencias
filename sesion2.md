@@ -130,7 +130,7 @@ print("Secuencia de números pares:", secue)
 ```
 
 #### Captura de comandos git
-![captura](./img/sesion2.jpg)
+![captura](https://firebasestorage.googleapis.com/v0/b/eviden-56fc7.appspot.com/o/sesion2.jpg?alt=media&token=fc891154-df2d-4e2a-954f-2e7381063d89)
 
 <!-- Su documentación aquí -->
 

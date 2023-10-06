@@ -37,9 +37,9 @@ git push origin master - subir cambios a github
 
 ## Actividad: Consulta y creación de infografía para cada tema: Python, Git y GitHub
 
-![Python](./img/python.jpg)
-![Git](./img/git.jpg)
-![Github](./img/github.jpg)
+![Python](https://firebasestorage.googleapis.com/v0/b/eviden-56fc7.appspot.com/o/python.jpg?alt=media&token=26efbf24-f9d7-469f-8434-6e637937e1fd)
+![Git](https://firebasestorage.googleapis.com/v0/b/eviden-56fc7.appspot.com/o/git.jpg?alt=media&token=814ef07e-813c-452d-ac7c-4ac65246bbcb)
+![Github](https://firebasestorage.googleapis.com/v0/b/eviden-56fc7.appspot.com/o/github.jpg?alt=media&token=a832dc02-ad90-42aa-b28d-b00a45faae4d)
 
 
 
